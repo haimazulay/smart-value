@@ -26,3 +26,29 @@ datapoints:
     base:
       group: 1
       rate: 1000
+  - id: 101
+    command: delay_time
+    base:
+      group: 1
+      range: 0-999
+      pitch: 1
+      unit: min
+  - id: 102
+    command: child_lock
+    base:
+      group: 1
+      type: bool
+  - id: 103
+    command: work_time
+    base:
+      group: 1
+      range: 0-999
+      pitch: 1
+      unit: min
+  - id: 104
+    command: total_time
+    base:
+      group: 1
+      range: 0-999
+      pitch: 1
+      unit: min
